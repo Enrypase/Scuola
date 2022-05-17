@@ -1,0 +1,4 @@
+#! /bin/bash
+/opt/tomcat/bin/startup.sh
+/home/enrypase/Desktop/startup.sh
+exit 0
