@@ -31,3 +31,7 @@ Ultima riga del file: <rpm max>,<temp max>,<velocità max>,<velocità media> <br
     - HIGH: speed > 250
   
   ***Se il nome del pilota è invalido ritorna la stringa 'invalid'***
+
+Come richiamare il programma:
+  
+    ./telemetry input.txt output.txt
