@@ -29,3 +29,5 @@ Ultima riga del file: <rpm max>,<temp max>,<velocità max>,<velocità media> <br
     - LOW: speed <= 100
     - MEDIUM: 100 < speed <= 250
     - HIGH: speed > 250
+  
+  ***Se il nome del pilota è invalido ritorna la stringa 'invalid'***
