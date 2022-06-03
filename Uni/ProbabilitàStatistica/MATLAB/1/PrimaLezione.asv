@@ -1,0 +1,33 @@
+A = [1 2; 3 4];         % Creazione di una matrice
+% help <nomeFunzione> / doc <nomeFunzione> - Mostrano documentazione sulla funzione
+% lookfor <parolaChiave> -all - Mostra tutte le funzioni con <parolaChiave> all'interno
+primoValore = 100;
+primoValore = 102;
+% clear / clear <nomeVariabile> - pulisce il Workspace
+arrayRiga = [1 2 3];
+arrayColonna = [1; 2; 3];
+
+arrayRiga(1);       % Per accedere agli elementi di un array
+
+newArray = [primoArray, secondoArray];      % Per la concatenazione dei vettori. Devono essere della stessa dimensione
+
+x = primoValoreVettore:currentValue:ultimoValoreVettore;        % Permette di generare un vettore con i valori inseriti
+linspace(primoPunto,secondoPunto, numeroDielementi)             % Permette di generare un vettore con i valori inseriti
+
+A(:, 2);    % Permette di accedere a tutte le righe della colonna 2
+A(:, 2:4);  % Selezioniamo tutte le righe e le colonne da 2 a 4
+A(1 : 3, 3 : 5)     % Creazione di una sotto-matrice
+
+V = A(:)    % Mettiamo tutte le colonne di A nell'array V
+A(end, :)   % Valore dell'ultima riga e tutte le colonne
+
+zeros(4, 4);        % Permette la creazione di matrici/array nulli delle dimensioni specificate
+ones(4, 4);
+rand(4, 4);
+magic(4 ,4);        % Somma di righe/colonne/diagonali sono uguali
+
+B = [A A+32; A+48 A+16];        % Concatenazione di matrici
+
+vettore'; % Permette di ribaltarlo, se riga diventa colonna e viceversa
+
+cell(dim1,dim2)     % All'interno di una cella si possono inserire delle altre matri
