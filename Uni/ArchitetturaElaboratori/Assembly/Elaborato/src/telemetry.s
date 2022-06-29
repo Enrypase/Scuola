@@ -1,6 +1,6 @@
 ### 30/06/2022 - Università Degli Studi Di Verona
 ### Elaborato ASM
-### Autori: Enrico Pasetto & Cristian Biliboc
+### Autori: Enrico Pasetto & Cristian - Francisc Biliboc
 
 .section .data
 pilot_0_str: .ascii   "Pierre Gasly\0"
